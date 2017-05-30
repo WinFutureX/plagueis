@@ -42,7 +42,9 @@ int main()
 	else
 	{
 		printf("\nSo uncivilised.\n\n");
+		getchar();	/* wait for input */
 		return 1;
 	}
+	getchar(); /* wait for input */
 	return 0;
 }
