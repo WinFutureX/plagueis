@@ -42,9 +42,11 @@ int main()
 	else
 	{
 		printf("\nSo uncivilised.\n\n");
+		fflush(stdin)	/* clean stdin */
 		getchar();	/* wait for input */
 		return 1;
 	}
+	fflush(stdin)	/* clean stdin */
 	getchar(); /* wait for input */
 	return 0;
 }
