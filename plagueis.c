@@ -18,14 +18,7 @@ int main()
 	scanf("%c", &answer);
 	if (answer == 'Y' || answer == 'y')
 	{
-		printf("\nDarth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could\n");
-		printf("use the Force to influence the midichlorians to create life... He had such a\n");
-		printf("knowledge of the dark side that he could even keep the ones he cared about from\n");
-		printf("dying. The dark side of the Force is a pathway to many abilities some consider\n");
-		printf("to be unnatural. He became so powerful... the only thing he was afraid of was\n");
-		printf("losing his power, which eventually, of course, he did. Unfortunately, he taught\n");
-		printf("his apprentice everything he knew, then his apprentice killed him in his sleep.\n");
-		printf("Ironic. He could save others from death, but not himself.\n\n");
+		printf("\nWe will watch your career with great interest.\n");
 	}
 	else if (answer == 'N' || answer == 'n')
 	{
