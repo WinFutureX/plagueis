@@ -18,7 +18,7 @@ int main()
 	scanf("%c", &answer);
 	if (answer == 'Y' || answer == 'y')
 	{
-		printf("\nWe will watch your career with great interest.\n");
+		printf("\nWe will watch your career with great interest.\n\n");
 	}
 	else if (answer == 'N' || answer == 'n')
 	{
