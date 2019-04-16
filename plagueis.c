@@ -1,20 +1,48 @@
-/*******************************************************************/
-/*  WinFutureX presents - Plagueis (or Reach the Man) version 1.1  */
-/*******************************************************************/
-/* please subscribe to r/chinese_bootleg_memes thank you very much */
-/*******************************************************************/
+/*  WinFutureX presents - Plagueis (or Reach the Man) version 1.1 (run from console!!) */
+/*           please subscribe to r/chinese_bootleg_memes thank you very much           */
 
-/* this was just an exercise in C programming */
+/* copyfuck 2018-42069 Kelsey Boey. all rights handicapped */
 
 #include <stdio.h>
+#include <string.h>
 
-int main()
+int main(int argc, char *argv[])
 {
 	printf ("\nWinFutureX PRESENTS - PLAGUEIS / REACH THE MAN v1.1\n\n");
+	for (int i = 1; i < argc; ++i)
+	{
+		if (!strcmp (argv[1], "-secret") || !strcmp (argv[1], "-s") || !strcmp (argv[1], "/S") || !strcmp (argv[1], "/s"))
+		{
+			printf ("This is your own masterpiece\n");
+		}
+		else if (!strcmp (argv[1], "-backstroke") || !strcmp (argv[1], "-b") || !strcmp (argv[1], "-B") || !strcmp (argv[1], "/B") || !strcmp (argv[1], "/b"))
+		{
+			/* backstroke (prequel memers don't know that our power will big outrun) */
+			printf ("Did you heard of the tragedy that reach the man? I think to be too is not. I\n");
+			printf ("think that the hopeless situation elder also can't. That is a legend. Reaching\n");
+			printf ("the man cloth space is the emperor. He is so strong and big he even can use the\n");
+			printf ("original dint to create life. He is very deep to black influence understanding.\n");
+			printf ("The black influence can the matter that many supermans. But other people thinks\n");
+			printf ("that these are what can't attains. He become more and more strong and big. Lost\n");
+			printf ("his power afterwards afterwards he died. In fact he teaches own the whole skills\n");
+			printf ("all to disciple. Then his land killed him to let him going to bed. Satirizing\n");
+			printf ("the meaning is he can let other people, but is incapable for dint to the\n");
+			printf ("oneself.\n");
+		}
+		else
+		{
+			printf ("special options:\n\n");
+			printf ("-secret (/s or -s): does exactly what it says\n");
+			printf ("-backstroke (/b or -b): same thing\n");
+			#ifndef _WIN32
+			printf ("\n");
+			#endif
+		}
+		return 0;
+	}
 	printf ("Did you ever hear the tragedy of Darth Plagueis the wise?\n");
-	printf ("(Please answer with 'Y', 'N' or 'B'.)\n");
-	char answer;
-	scanf ("%c", &answer);
+	printf ("(Please answer with 'Y' or 'N'.)\n");
+	char answer = getchar();
 	if (answer == 'Y' || answer == 'y')
 	{
 		/* prequel memer */
@@ -31,32 +59,23 @@ int main()
 		printf ("to be unnatural. He became so powerful... the only thing he was afraid of was\n");
 		printf ("losing his power, which eventually, of course, he did. Unfortunately, he taught\n");
 		printf ("his apprentice everything he knew, then his apprentice killed him in his sleep.\n");
-		printf ("Ironic. He could save others from death, but not himself.\n\n");
+		printf ("Ironic. He could save others from death, but not himself.\n");
 	}
 	else if (answer == 'B' || answer == 'b')
 	{
-		/* backstroke */
-		printf ("\nDid you heard of the tragedy that reach the man? I think to be too is not.\n");
-		printf ("I think that the hopeless situation elder also can't. That is a legend.\n");
-		printf ("Reaching the man cloth space is the emperor. He is so strong and big he even\n");
-		printf ("use the original dint to create life. He is very deep to black influence\n");
-		printf ("understanding. The black influence can the matter that many supermans. But\n");
-		printf ("other people thinks that these are what can't attains. He become more and\n");
-		printf ("more strong and big. Lost his power afterwards afterwards he died. In fact he\n");
-		printf ("teaches own the whole skills all to disciple. Then his land killed him to let\n");
-		printf ("him going to bed. Satirizing the meaning is he can let other people, but is\n");
-		printf ("incapable for dint to the oneself.\n\n");
+		printf ("\nnote: launch with \"-backstroke\" option next time\n");
 	}
 	else
 	{
 		/* he's too dangerous to be left alive! */
-		printf ("\nSo uncivilised.\n\n");
-		//fflush (stdin);	/* clean stdin */
-		//getchar();	/* wait for input */
-		//return 1;
+		printf ("\nSo uncivilised.\n");
+		#ifndef _WIN32
+		printf ("\n");
+		#endif
+		return 1;
 	}
-	printf ("Press Enter to continue...\n");
-	fflush (stdin);	/* clean stdin */
-	getchar(); /* wait for input */
+	#ifndef _WIN32
+	printf ("\n");
+	#endif
 	return 0;
 }
