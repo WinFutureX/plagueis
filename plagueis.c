@@ -1,7 +1,8 @@
 /*  WinFutureX presents - Plagueis (or Reach the Man) version 1.1 (run from console!!) */
 /*           please subscribe to r/chinese_bootleg_memes thank you very much           */
 
-/* copyfuck 2018-42069 Kelsey Boey. all rights handicapped */
+/* Copyright 2018 Kelsey Boey */
+/* plagueis is licensed under the MIT license. See LICENSE for full license terms. */
 
 #include <stdio.h>
 #include <string.h>
