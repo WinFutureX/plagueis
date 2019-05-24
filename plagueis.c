@@ -1,24 +1,24 @@
 /*  WinFutureX presents - Plagueis (or Reach the Man) version 1.1 (run from console!!) */
 /*           please subscribe to r/chinese_bootleg_memes thank you very much           */
 
-/* Copyright 2018 Kelsey Boey */
-/* plagueis is licensed under the MIT license. See LICENSE for full license terms. */
+/*                             Copyright 2018 Kelsey Boey.                             */
+/*   plagueis is licensed under the MIT license. See LICENSE for full license terms.   */
 
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
 	printf ("\nWinFutureX PRESENTS - PLAGUEIS / REACH THE MAN v1.1\n\n");
 	for (int i = 1; i < argc; ++i)
 	{
-		if (!strcmp (argv[1], "-secret") || !strcmp (argv[1], "-s") || !strcmp (argv[1], "/S") || !strcmp (argv[1], "/s"))
+		if (!strcmp(argv[1], "-secret") || !strcmp (argv[1], "-s") || !strcmp(argv[1], "-S") || !strcmp(argv[1], "/S") || !strcmp(argv[1], "/s"))
 		{
 			printf ("This is your own masterpiece\n");
 		}
-		else if (!strcmp (argv[1], "-backstroke") || !strcmp (argv[1], "-b") || !strcmp (argv[1], "-B") || !strcmp (argv[1], "/B") || !strcmp (argv[1], "/b"))
+		else if (!strcmp(argv[1], "-backstroke") || !strcmp(argv[1], "-b") || !strcmp(argv[1], "-B") || !strcmp(argv[1], "/B") || !strcmp (argv[1], "/b"))
 		{
-			/* backstroke (prequel memers don't know that our power will big outrun) */
+			// backstroke (prequel memers don't know that our power will big outrun)
 			printf ("Did you heard of the tragedy that reach the man? I think to be too is not. I\n");
 			printf ("think that the hopeless situation elder also can't. That is a legend. Reaching\n");
 			printf ("the man cloth space is the emperor. He is so strong and big he even can use the\n");
@@ -46,12 +46,12 @@ int main(int argc, char *argv[])
 	char answer = getchar();
 	if (answer == 'Y' || answer == 'y')
 	{
-		/* prequel memer */
+		// prequel memer
 		printf ("\nWe will watch your career with great interest.\n\n");
 	}
 	else if (answer == 'N' || answer == 'n')
 	{
-		/* normie */
+		// normie
 		printf ("\nI thought not. It's not a story the Jedi would tell you. It's a Sith legend.\n");
 		printf ("Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could\n");
 		printf ("use the Force to influence the midichlorians to create life... He had such a\n");
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		/* he's too dangerous to be left alive! */
+		// he's too dangerous to be left alive!
 		printf ("\nSo uncivilised.\n");
 		#ifndef _WIN32
 		printf ("\n");
