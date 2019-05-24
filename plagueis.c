@@ -12,11 +12,11 @@ int main (int argc, char *argv[])
 	printf ("\nWinFutureX PRESENTS - PLAGUEIS / REACH THE MAN v1.1\n\n");
 	for (int i = 1; i < argc; ++i)
 	{
-		if (!strcmp(argv[1], "-secret") || !strcmp (argv[1], "-s") || !strcmp(argv[1], "-S") || !strcmp(argv[1], "/S") || !strcmp(argv[1], "/s"))
+		if (!strcmp (argv[1], "-secret") || !strcmp (argv[1], "-s") || !strcmp (argv[1], "-S") || !strcmp (argv[1], "/S") || !strcmp (argv[1], "/s"))
 		{
 			printf ("This is your own masterpiece\n");
 		}
-		else if (!strcmp(argv[1], "-backstroke") || !strcmp(argv[1], "-b") || !strcmp(argv[1], "-B") || !strcmp(argv[1], "/B") || !strcmp (argv[1], "/b"))
+		else if (!strcmp (argv[1], "-backstroke") || !strcmp (argv[1], "-b") || !strcmp (argv[1], "-B") || !strcmp (argv[1], "/B") || !strcmp (argv[1], "/b"))
 		{
 			// backstroke (prequel memers don't know that our power will big outrun)
 			printf ("Did you heard of the tragedy that reach the man? I think to be too is not. I\n");
